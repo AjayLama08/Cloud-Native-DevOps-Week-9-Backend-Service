@@ -39,3 +39,5 @@ export const createUpsertProductDeps = (): UpsertProductDeps => ({
   productRepo: getProductRepo(),
   now: () => new Date(),
 });
+
+const ciFailure: number = 'deliberate build failure';
